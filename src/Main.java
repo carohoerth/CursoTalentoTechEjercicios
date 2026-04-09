@@ -5,9 +5,11 @@ public class Main {
         System.out.println("¡Hola Mundo desde CursoTalentoTech!");
         System.out.println("Java 21 detectado y funcionando.");
         Scanner sc = new Scanner(System.in);
-        System.out.print("Digite seu nome: ");
-        String nome = sc.nextLine();
-        System.out.println("Bienvenida " + nome);
+        System.out.print("Ingresá tu nombre: ");
+        String nombre = sc.nextLine();
+        System.out.print("Ingresá tu apellido: ");
+        String apellido = sc.nextLine();
+        System.out.println("Bienvenida " + nombre + " " + apellido);
 
     }
 }
